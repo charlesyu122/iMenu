@@ -23,6 +23,8 @@
 		946F6B4B16F72BB8005C778D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2616F72BB7005C778D /* Foundation.framework */; };
 		946F6B5316F72BB8005C778D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 946F6B5116F72BB8005C778D /* InfoPlist.strings */; };
 		946F6B5616F72BB8005C778D /* iMenuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 946F6B5516F72BB8005C778D /* iMenuTests.m */; };
+		946F6B6316F72D4A005C778D /* iMenuLaunch.png in Resources */ = {isa = PBXBuildFile; fileRef = 946F6B6216F72D4A005C778D /* iMenuLaunch.png */; };
+		946F6B6416F72F16005C778D /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 946F6B6016F72D0D005C778D /* Default-Landscape~ipad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		946F6B5216F72BB8005C778D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		946F6B5416F72BB8005C778D /* iMenuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iMenuTests.h; sourceTree = "<group>"; };
 		946F6B5516F72BB8005C778D /* iMenuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iMenuTests.m; sourceTree = "<group>"; };
+		946F6B6016F72D0D005C778D /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		946F6B6216F72D4A005C778D /* iMenuLaunch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iMenuLaunch.png; path = "../../../sideline/iMenu app/iMenuLaunch.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,7 @@
 		946F6B1816F72BB7005C778D = {
 			isa = PBXGroup;
 			children = (
+				946F6B6016F72D0D005C778D /* Default-Landscape~ipad.png */,
 				946F6B2A16F72BB7005C778D /* iMenu */,
 				946F6B4E16F72BB8005C778D /* iMenuTests */,
 				946F6B2316F72BB7005C778D /* Frameworks */,
@@ -130,6 +135,7 @@
 		946F6B2B16F72BB7005C778D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				946F6B5F16F72CEC005C778D /* images */,
 				946F6B2C16F72BB7005C778D /* iMenu-Info.plist */,
 				946F6B2D16F72BB7005C778D /* InfoPlist.strings */,
 				946F6B3016F72BB7005C778D /* main.m */,
@@ -158,6 +164,14 @@
 				946F6B5116F72BB8005C778D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		946F6B5F16F72CEC005C778D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				946F6B6216F72D4A005C778D /* iMenuLaunch.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +250,8 @@
 				946F6B3916F72BB7005C778D /* Default@2x.png in Resources */,
 				946F6B3B16F72BB7005C778D /* Default-568h@2x.png in Resources */,
 				946F6B3E16F72BB7005C778D /* MainStoryboard.storyboard in Resources */,
+				946F6B6316F72D4A005C778D /* iMenuLaunch.png in Resources */,
+				946F6B6416F72F16005C778D /* Default-Landscape~ipad.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
