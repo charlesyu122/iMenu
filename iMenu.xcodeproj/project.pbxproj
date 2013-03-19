@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94005FFE16F867DC00E980D5 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94005FFD16F867DC00E980D5 /* FrontViewController.m */; };
 		946F6B2516F72BB7005C778D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2416F72BB7005C778D /* UIKit.framework */; };
 		946F6B2716F72BB7005C778D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2616F72BB7005C778D /* Foundation.framework */; };
 		946F6B2916F72BB7005C778D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2816F72BB7005C778D /* CoreGraphics.framework */; };
@@ -17,7 +18,7 @@
 		946F6B3916F72BB7005C778D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946F6B3816F72BB7005C778D /* Default@2x.png */; };
 		946F6B3B16F72BB7005C778D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 946F6B3A16F72BB7005C778D /* Default-568h@2x.png */; };
 		946F6B3E16F72BB7005C778D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 946F6B3C16F72BB7005C778D /* MainStoryboard.storyboard */; };
-		946F6B4116F72BB7005C778D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946F6B4016F72BB7005C778D /* ViewController.m */; };
+		946F6B4116F72BB7005C778D /* RestaurantsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 946F6B4016F72BB7005C778D /* RestaurantsViewController.m */; };
 		946F6B4916F72BB8005C778D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B4816F72BB8005C778D /* SenTestingKit.framework */; };
 		946F6B4A16F72BB8005C778D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2416F72BB7005C778D /* UIKit.framework */; };
 		946F6B4B16F72BB8005C778D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2616F72BB7005C778D /* Foundation.framework */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94005FFC16F867DC00E980D5 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
+		94005FFD16F867DC00E980D5 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
 		946F6B2116F72BB7005C778D /* iMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946F6B2416F72BB7005C778D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		946F6B2616F72BB7005C778D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,8 +55,8 @@
 		946F6B3816F72BB7005C778D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		946F6B3A16F72BB7005C778D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		946F6B3D16F72BB7005C778D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		946F6B3F16F72BB7005C778D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		946F6B4016F72BB7005C778D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		946F6B3F16F72BB7005C778D /* RestaurantsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RestaurantsViewController.h; sourceTree = "<group>"; };
+		946F6B4016F72BB7005C778D /* RestaurantsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RestaurantsViewController.m; sourceTree = "<group>"; };
 		946F6B4716F72BB8005C778D /* iMenuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iMenuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		946F6B4816F72BB8005C778D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		946F6B5016F72BB8005C778D /* iMenuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMenuTests-Info.plist"; sourceTree = "<group>"; };
@@ -125,8 +128,10 @@
 				946F6B3316F72BB7005C778D /* AppDelegate.h */,
 				946F6B3416F72BB7005C778D /* AppDelegate.m */,
 				946F6B3C16F72BB7005C778D /* MainStoryboard.storyboard */,
-				946F6B3F16F72BB7005C778D /* ViewController.h */,
-				946F6B4016F72BB7005C778D /* ViewController.m */,
+				946F6B3F16F72BB7005C778D /* RestaurantsViewController.h */,
+				946F6B4016F72BB7005C778D /* RestaurantsViewController.m */,
+				94005FFC16F867DC00E980D5 /* FrontViewController.h */,
+				94005FFD16F867DC00E980D5 /* FrontViewController.m */,
 				946F6B2B16F72BB7005C778D /* Supporting Files */,
 			);
 			path = iMenu;
@@ -288,7 +293,8 @@
 			files = (
 				946F6B3116F72BB7005C778D /* main.m in Sources */,
 				946F6B3516F72BB7005C778D /* AppDelegate.m in Sources */,
-				946F6B4116F72BB7005C778D /* ViewController.m in Sources */,
+				946F6B4116F72BB7005C778D /* RestaurantsViewController.m in Sources */,
+				94005FFE16F867DC00E980D5 /* FrontViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +477,7 @@
 				946F6B5B16F72BB8005C778D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		946F6B5C16F72BB8005C778D /* Build configuration list for PBXNativeTarget "iMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +486,7 @@
 				946F6B5E16F72BB8005C778D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
