@@ -11,6 +11,8 @@
 @interface RestaurantsViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 // Attributes
 @property (weak, nonatomic) IBOutlet UITableView *restaurantList;
-
+@property (weak, nonatomic) IBOutlet UINavigationItem *navigTitle;
+// Methods
+- (void) setupNavigBar;
 
 @end

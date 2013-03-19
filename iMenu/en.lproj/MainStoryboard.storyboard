@@ -22,8 +22,11 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QTL-gN-bND">
                                 <color key="tintColor" red="0.1777069292705242" green="0.61148756377551017" blue="0.21542844240938036" alpha="0.0" colorSpace="calibratedRGB"/>
                                 <items>
-                                    <navigationItem title="Title" id="zg9-zp-iJr"/>
+                                    <navigationItem title="Restaurants" id="zg9-zp-iJr"/>
                                 </items>
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="zva-Q5-SVQ"/>
+                                </connections>
                             </navigationBar>
                         </subviews>
                         <color key="backgroundColor" red="0.17738133647188106" green="0.6245814732142857" blue="0.21307245603034458" alpha="0.0" colorSpace="calibratedRGB"/>
@@ -40,6 +43,7 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
+                        <outlet property="navigTitle" destination="zg9-zp-iJr" id="cLk-xb-zQS"/>
                         <outlet property="restaurantList" destination="yLt-fM-I2d" id="Ili-se-Qjh"/>
                         <segue destination="mwT-2p-2q4" kind="modal" identifier="restoFrontSegue" modalTransitionStyle="flipHorizontal" id="1Ok-Y5-CUJ"/>
                     </connections>
@@ -92,6 +96,7 @@
         <class className="RestaurantsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/RestaurantsViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="navigTitle" candidateClass="UINavigationItem"/>
                 <relationship kind="outlet" name="restaurantList" candidateClass="UITableView"/>
             </relationships>
         </class>

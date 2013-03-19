@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		94005FFE16F867DC00E980D5 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94005FFD16F867DC00E980D5 /* FrontViewController.m */; };
+		9400600216F88EBE00E980D5 /* smallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9400600116F88EBE00E980D5 /* smallLogo.png */; };
 		946F6B2516F72BB7005C778D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2416F72BB7005C778D /* UIKit.framework */; };
 		946F6B2716F72BB7005C778D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2616F72BB7005C778D /* Foundation.framework */; };
 		946F6B2916F72BB7005C778D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2816F72BB7005C778D /* CoreGraphics.framework */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		94005FFC16F867DC00E980D5 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
 		94005FFD16F867DC00E980D5 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
+		9400600116F88EBE00E980D5 /* smallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallLogo.png; path = "../../../sideline/iMenu app/smallLogo.png"; sourceTree = "<group>"; };
 		946F6B2116F72BB7005C778D /* iMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946F6B2416F72BB7005C778D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		946F6B2616F72BB7005C778D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -174,6 +176,7 @@
 		946F6B5F16F72CEC005C778D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				9400600116F88EBE00E980D5 /* smallLogo.png */,
 				946F6B6216F72D4A005C778D /* iMenuLaunch.png */,
 			);
 			name = images;
@@ -257,6 +260,7 @@
 				946F6B3E16F72BB7005C778D /* MainStoryboard.storyboard in Resources */,
 				946F6B6316F72D4A005C778D /* iMenuLaunch.png in Resources */,
 				946F6B6416F72F16005C778D /* Default-Landscape~ipad.png in Resources */,
+				9400600216F88EBE00E980D5 /* smallLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

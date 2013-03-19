@@ -19,12 +19,13 @@
     NSString *selectedResto;
 }
 
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Initialization
     restaurants = [NSArray arrayWithObjects:@"Mother's Fried Chicken", @"Canvas BBG", @"Other Restaurants", nil];
-    
+    [self setupNavigBar];
 }
 
 - (void)didReceiveMemoryWarning
@@ -33,7 +34,12 @@
     // Dispose of any resources that can be recreated.
 }
 
-
+// Methods for navigation bar
+- (void) setupNavigBar
+{
+    UIImage *image = [UIImage imageNamed:@"smallLogo.png"];
+    self.navigTitle.titleView = [[UIImageView alloc] initWithImage:image];
+}
 
 // Methods for tableview
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
