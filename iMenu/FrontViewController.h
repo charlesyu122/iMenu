@@ -11,7 +11,12 @@
 @interface FrontViewController : UIViewController
 // Attributes
 @property(nonatomic) NSString *restaurantName;
-@property (weak, nonatomic) IBOutlet UILabel *lbRestoName;
+- (IBAction)btnOrderNow:(id)sender;
+- (IBAction)btnCancel:(id)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *imgRestoLogo;
+@property (weak, nonatomic) IBOutlet UIImageView *frontRestoBg;
 
+// Methods
+- (void) setupRestoDisplay;
 
 @end

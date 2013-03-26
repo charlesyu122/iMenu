@@ -9,6 +9,13 @@
 /* Begin PBXBuildFile section */
 		94005FFE16F867DC00E980D5 /* FrontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94005FFD16F867DC00E980D5 /* FrontViewController.m */; };
 		9400600216F88EBE00E980D5 /* smallLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9400600116F88EBE00E980D5 /* smallLogo.png */; };
+		942FD8521701D2E700A0FFEA /* mfc_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 942FD8511701D2E700A0FFEA /* mfc_logo.png */; };
+		942FD8541701D8FD00A0FFEA /* mfc_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 942FD8531701D8FD00A0FFEA /* mfc_wood.png */; };
+		942FD8581701E3B700A0FFEA /* footer_gradient.png in Resources */ = {isa = PBXBuildFile; fileRef = 942FD8571701E3B700A0FFEA /* footer_gradient.png */; };
+		942FD85C1701E96A00A0FFEA /* green_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 942FD85B1701E96A00A0FFEA /* green_button.png */; };
+		942FD85E1701E9D000A0FFEA /* red_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 942FD85D1701E9D000A0FFEA /* red_button.png */; };
+		942FD8611701F64700A0FFEA /* default_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 942FD8601701F64700A0FFEA /* default_logo.png */; };
+		942FD8631701FC2000A0FFEA /* black_wood.png in Resources */ = {isa = PBXBuildFile; fileRef = 942FD8621701FC2000A0FFEA /* black_wood.png */; };
 		946F6B2516F72BB7005C778D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2416F72BB7005C778D /* UIKit.framework */; };
 		946F6B2716F72BB7005C778D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2616F72BB7005C778D /* Foundation.framework */; };
 		946F6B2916F72BB7005C778D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 946F6B2816F72BB7005C778D /* CoreGraphics.framework */; };
@@ -43,6 +50,13 @@
 		94005FFC16F867DC00E980D5 /* FrontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrontViewController.h; sourceTree = "<group>"; };
 		94005FFD16F867DC00E980D5 /* FrontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FrontViewController.m; sourceTree = "<group>"; };
 		9400600116F88EBE00E980D5 /* smallLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = smallLogo.png; path = "../../../sideline/iMenu app/smallLogo.png"; sourceTree = "<group>"; };
+		942FD8511701D2E700A0FFEA /* mfc_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mfc_logo.png; path = ../../../../Desktop/mfc/mfc_logo.png; sourceTree = "<group>"; };
+		942FD8531701D8FD00A0FFEA /* mfc_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mfc_wood.png; path = "../../../sideline/iMenu app/mfc_wood.png"; sourceTree = "<group>"; };
+		942FD8571701E3B700A0FFEA /* footer_gradient.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = footer_gradient.png; path = "../../../sideline/iMenu app/footer_gradient.png"; sourceTree = "<group>"; };
+		942FD85B1701E96A00A0FFEA /* green_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = green_button.png; path = "../../../sideline/iMenu app/green_button.png"; sourceTree = "<group>"; };
+		942FD85D1701E9D000A0FFEA /* red_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red_button.png; path = "../../../sideline/iMenu app/red_button.png"; sourceTree = "<group>"; };
+		942FD8601701F64700A0FFEA /* default_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = default_logo.png; path = "../../../sideline/iMenu app/default_logo.png"; sourceTree = "<group>"; };
+		942FD8621701FC2000A0FFEA /* black_wood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = black_wood.png; path = "../../../sideline/iMenu app/black_wood.png"; sourceTree = "<group>"; };
 		946F6B2116F72BB7005C778D /* iMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		946F6B2416F72BB7005C778D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		946F6B2616F72BB7005C778D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -93,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		942FD85F1701E9D700A0FFEA /* mfc */ = {
+			isa = PBXGroup;
+			children = (
+				942FD8531701D8FD00A0FFEA /* mfc_wood.png */,
+				942FD8511701D2E700A0FFEA /* mfc_logo.png */,
+			);
+			name = mfc;
+			sourceTree = "<group>";
+		};
 		946F6B1816F72BB7005C778D = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +199,12 @@
 		946F6B5F16F72CEC005C778D /* images */ = {
 			isa = PBXGroup;
 			children = (
+				942FD85F1701E9D700A0FFEA /* mfc */,
+				942FD8621701FC2000A0FFEA /* black_wood.png */,
+				942FD8601701F64700A0FFEA /* default_logo.png */,
+				942FD85D1701E9D000A0FFEA /* red_button.png */,
+				942FD85B1701E96A00A0FFEA /* green_button.png */,
+				942FD8571701E3B700A0FFEA /* footer_gradient.png */,
 				9400600116F88EBE00E980D5 /* smallLogo.png */,
 				946F6B6216F72D4A005C778D /* iMenuLaunch.png */,
 			);
@@ -261,6 +290,13 @@
 				946F6B6316F72D4A005C778D /* iMenuLaunch.png in Resources */,
 				946F6B6416F72F16005C778D /* Default-Landscape~ipad.png in Resources */,
 				9400600216F88EBE00E980D5 /* smallLogo.png in Resources */,
+				942FD8521701D2E700A0FFEA /* mfc_logo.png in Resources */,
+				942FD8541701D8FD00A0FFEA /* mfc_wood.png in Resources */,
+				942FD8581701E3B700A0FFEA /* footer_gradient.png in Resources */,
+				942FD85C1701E96A00A0FFEA /* green_button.png in Resources */,
+				942FD85E1701E9D000A0FFEA /* red_button.png in Resources */,
+				942FD8611701F64700A0FFEA /* default_logo.png in Resources */,
+				942FD8631701FC2000A0FFEA /* black_wood.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

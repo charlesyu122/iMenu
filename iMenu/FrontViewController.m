@@ -14,7 +14,7 @@
 
 @implementation FrontViewController
 // Synthesize attributes
-@synthesize lbRestoName;
+@synthesize restaurantName, imgRestoLogo, frontRestoBg;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -29,7 +29,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    lbRestoName.text = [self restaurantName];
+    [self setupRestoDisplay];
 }
 
 - (void)didReceiveMemoryWarning
@@ -38,4 +38,19 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void) setupRestoDisplay
+{
+    // Initialize view for Mother's Fried Chicken
+    if([restaurantName isEqualToString:@"Mother's Fried Chicken"]){
+        [imgRestoLogo setImage:[UIImage imageNamed:@"mfc_logo.png"]];
+        [frontRestoBg setImage:[UIImage imageNamed:@"mfc_wood.png"]];
+    }
+    
+}
+
+- (IBAction)btnOrderNow:(id)sender {
+}
+
+- (IBAction)btnCancel:(id)sender {
+}
 @end
