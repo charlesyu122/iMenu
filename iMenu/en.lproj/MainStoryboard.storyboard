@@ -73,10 +73,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3d9-Ly-hTU">
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="209" id="9oq-Ly-Jae"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="18"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
                                 <state key="normal" title="Order Now" backgroundImage="green_button.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -89,12 +86,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3xd-1G-ecU">
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="73" id="7BB-SJ-zQg"/>
-                                    <constraint firstAttribute="width" constant="209" id="krx-lQ-wiC"/>
-                                </constraints>
                                 <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
-                                <state key="normal" title="Cancel" backgroundImage="red_button.png">
+                                <state key="normal" title="Change Resto" backgroundImage="red_button.png">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -111,19 +104,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="3xd-1G-ecU" firstAttribute="bottom" secondItem="3d9-Ly-hTU" secondAttribute="bottom" type="default" id="0Wb-ee-Zk5"/>
                             <constraint firstItem="bro-og-rRt" firstAttribute="top" secondItem="5Ri-pw-rWT" secondAttribute="top" type="default" id="KwO-2S-gRq"/>
                             <constraint firstItem="3d9-Ly-hTU" firstAttribute="baseline" secondItem="3xd-1G-ecU" secondAttribute="baseline" type="default" id="L9J-Ip-llp"/>
-                            <constraint firstItem="3xd-1G-ecU" firstAttribute="top" secondItem="3d9-Ly-hTU" secondAttribute="top" type="default" id="NpB-OC-HXH"/>
                             <constraint firstItem="9Mf-pe-RM4" firstAttribute="leading" secondItem="5Ri-pw-rWT" secondAttribute="leading" type="default" id="OmY-Km-mQT"/>
                             <constraint firstItem="bro-og-rRt" firstAttribute="leading" secondItem="5Ri-pw-rWT" secondAttribute="leading" type="default" id="PO9-n2-o2V"/>
-                            <constraint firstItem="3xd-1G-ecU" firstAttribute="centerY" secondItem="9Mf-pe-RM4" secondAttribute="centerY" type="default" id="irb-ZY-qzI"/>
-                            <constraint firstItem="q9L-vF-UcF" firstAttribute="top" secondItem="5Ri-pw-rWT" secondAttribute="top" constant="97" id="og4-Mq-fxa"/>
-                            <constraint firstAttribute="bottom" secondItem="9Mf-pe-RM4" secondAttribute="bottom" constant="113" id="svW-8Y-aWF"/>
+                            <constraint firstAttribute="bottom" secondItem="9Mf-pe-RM4" secondAttribute="bottom" constant="83" id="SMc-Je-rWm"/>
+                            <constraint firstItem="3d9-Ly-hTU" firstAttribute="centerY" secondItem="9Mf-pe-RM4" secondAttribute="centerY" type="default" id="UNf-2C-2TW"/>
+                            <constraint firstItem="q9L-vF-UcF" firstAttribute="top" secondItem="5Ri-pw-rWT" secondAttribute="top" constant="130" id="WrT-ew-LG9"/>
+                            <constraint firstItem="3d9-Ly-hTU" firstAttribute="trailing" secondItem="q9L-vF-UcF" secondAttribute="trailing" type="default" id="qOx-sO-RJq"/>
+                            <constraint firstItem="3d9-Ly-hTU" firstAttribute="leading" secondItem="3xd-1G-ecU" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="ufY-8c-M9q"/>
                             <constraint firstItem="q9L-vF-UcF" firstAttribute="centerX" secondItem="9Mf-pe-RM4" secondAttribute="centerX" type="default" id="v6E-cU-9Oj"/>
                             <constraint firstItem="bro-og-rRt" firstAttribute="bottom" secondItem="5Ri-pw-rWT" secondAttribute="bottom" type="default" id="xNO-wD-p4k"/>
-                            <constraint firstItem="3xd-1G-ecU" firstAttribute="leading" secondItem="5Ri-pw-rWT" secondAttribute="leading" constant="477" id="xzb-kf-FI4"/>
-                            <constraint firstItem="3d9-Ly-hTU" firstAttribute="trailing" secondItem="q9L-vF-UcF" secondAttribute="trailing" type="default" id="zN6-xd-VzU"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -135,7 +126,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vf2-qD-YFh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-269" y="806"/>
+            <point key="canvasLocation" x="-436" y="588"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fjd-J8-l1U">
+            <objects>
+                <viewController id="x7H-77-em3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Zvh-ug-lQw">
+                        <rect key="frame" x="0.0" y="20" width="1024" height="748"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NZv-83-GtZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-436" y="1467"/>
         </scene>
     </scenes>
     <resources>
